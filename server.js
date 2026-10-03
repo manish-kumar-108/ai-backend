@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const { client } = require('@gradio/client');
+import express from 'express';
+import cors from 'cors';
+import { client } from '@gradio/client';
 
 const app = express();
 app.use(cors());
