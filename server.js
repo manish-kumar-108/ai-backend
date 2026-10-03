@@ -1,3 +1,6 @@
+// Trick Gradio into thinking it's in a browser
+global.window = global;
+
 import express from 'express';
 import cors from 'cors';
 import { client } from '@gradio/client';
